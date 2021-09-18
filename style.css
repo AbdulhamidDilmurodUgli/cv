@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Sacramento&subset=latin-ext');
+
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-family: 'Sacramento',cursive !important;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color:#66BFBF;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight:normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border-top: 6px dotted #EAF6F6;
+  width:5%;
+  margin: 100px auto;
+  border-bottom: none;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top:100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left: 250px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.programmer{
+  font-weight: normal;
+}
+
+.profile-pic{
+  margin:40px auto 15px auto;
+  border:1px solid #E4F9F5;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: left;
+}
+
+.web{
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+
+.app{
+  width: 25%;
+  float: right;
+  margin-left:30px;
+}
+
+.contact-me{
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 50;
+   padding: 8px;
+   background-color: #66BFBF;
+   text-shadow: 0 0 0 #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #1EAAD0;
+   border: double #0059A0 0;
+   -webkit-border-radius: 21px;
+   -moz-border-radius: 21px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.footer-link{
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  text-decoration: none;
+  color:#11999E;
+}
+
+.footer-link:hover{
+  color:#EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  }
